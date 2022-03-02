@@ -1,0 +1,39 @@
+220227doc.txt
+/home/dev/www/farming/frontend/src/farm/lib/constants.js
+0xbfd181cb0c8e23b65805dded3863dce6517402a7 --> 0x1d187BbeCeF8d7b1731339c301ab8354d4F0A50b
+
+0x63726dAe7C57d25e90ec829ce9a5C745Ffd984d3 --> 0x1d187BbeCeF8d7b1731339c301ab8354d4F0A50b
+
+
+UNI-V2 0.31606 : Add 0.1 C4EI and 0.998 BCW --> 0xC14770E46e2C9B53304486F7a3a27e9522091Eff --> LP (C4EI_BCW)
+BCW : 0x58A3F3237Ac6DD279702f2ec02C36ab536FF08e1
+
+npm run migrate --network mainnet
+npm run verify --network mainnet
+------------------------------------------------------------------------
+----   farm (220228)- 0x4ae440C162809aAB17227A3B79c569ae09F9b490   ----
+------------------------------------------------------------------------
+endBlock : 3064195
+erc20 : address: 0x58A3F3237Ac6DD279702f2ec02C36ab536FF08e1
+owner : address: 0x0fF2D1eFd7A57B7562b2bf27F3f37899dB27F4a5
+paidOut : uint256: 0
+poolLength : uint256: 1
+rewardPerBlock : uint256: 40000000000
+startBlock : uint256: 564195
+------------------------------------------------------------------------
+
+rewardPerBlock : uint256: 40000000000 --> maybe 0*8 more need ? hmmmmmm. . .
+40000000000
+10000000000 --> 0*10
+
+/home/dev/www/farming/config.json
+  "mainnet": {
+    "erc20": { "address": "0x58A3F3237Ac6DD279702f2ec02C36ab536FF08e1" },
+    "rewardPerBlock": "40000000000",
+    "delay": 30,
+    "fund": "100000000000000000",
+    "lp": [
+      { "address": "0xC14770E46e2C9B53304486F7a3a27e9522091Eff",
+        "allocPoint": 120 }
+    ]
+  },

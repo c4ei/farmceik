@@ -1,0 +1,84 @@
+dev@ubuntu:~/www/farming$ npm run migrate --network mainnet
+
+> deor-farm@0.1.0 migrate
+> rm -rf build && truffle migrate --network mainnet --reset "mainnet"
+
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/ERC20Mock.sol
+> Compiling ./contracts/Farm.sol
+> Compiling ./contracts/LPMock.sol
+> Compiling ./contracts/Migrations.sol
+> Compiling @openzeppelin/contracts/access/Ownable.sol
+> Compiling @openzeppelin/contracts/math/SafeMath.sol
+> Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol
+> Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol
+> Compiling @openzeppelin/contracts/token/ERC20/SafeERC20.sol
+> Compiling @openzeppelin/contracts/utils/Address.sol
+> Compiling @openzeppelin/contracts/utils/Context.sol
+> Compiling @openzeppelin/contracts/utils/EnumerableSet.sol
+> Artifacts written to /home/dev/www/farming/build/contracts
+> Compiled successfully using:
+   - solc: 0.6.12+commit.27d51765.Emscripten.clang
+
+
+Starting migrations...
+======================
+> Network name:    'mainnet'
+> Network id:      21004
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x1bc14f8a22d31d746b0f69cb60f43fd32a5d02b79f3147c249f6112cc4f1a793
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x687C595f59bD9e20Dd5a67BB0a3118EDe1C31b72
+   > block number:        564164
+   > block timestamp:     1646015181
+   > account:             0x0fF2D1eFd7A57B7562b2bf27F3f37899dB27F4a5
+   > balance:             89.653045085
+   > gas used:            159195 (0x26ddb)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000159195 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.000159195 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'Farm'
+   ----------------
+   > transaction hash:    0xc0c5ca84fb24c71553a1b98eb3dd88a5e69dc7d4d88b07dccc30b3912fce9bad
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x4ae440C162809aAB17227A3B79c569ae09F9b490
+   > block number:        564166
+   > block timestamp:     1646015192
+   > account:             0x0fF2D1eFd7A57B7562b2bf27F3f37899dB27F4a5
+   > balance:             89.650961108
+   > gas used:            2041639 (0x1f2727)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.002041639 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.002041639 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.002200834 ETH
+
+
+dev@ubuntu:~/www/farming$ 
