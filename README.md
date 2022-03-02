@@ -219,3 +219,5 @@ npm run verify --network mainnet
 
 배포실패
 scope.klaytn.com
+
+/home/dev/www/farmceik/frontend/src/farm/lib/constants.js

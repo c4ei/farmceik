@@ -3,7 +3,7 @@ export const contractAddresses = {
     8217: '0x18814b01b5cc76f7043e10fd268cc4364df47da0',
   },
   farm: {
-    8217: '0x2263B559B8207e4914fD8aF080FF93085c3a713C',
+    8217: '0xc40689375a5BD2F8E21B1c05A5EE1d343e5c746D',
   },
   weth: {
     8217: '0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167',
