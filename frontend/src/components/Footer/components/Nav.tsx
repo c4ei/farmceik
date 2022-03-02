@@ -15,8 +15,8 @@ const contractAddressesTemp = contractAddresses as {[index: string]:any};
 const Nav: React.FC = () => {
     return (
     <StyledNav>
-      <StyledLink target="_blank" href={`https://swap.c4ei.net`} title="get LP token">
-        swap.c4ei.net (get LP token)
+      <StyledLink target="_blank" href={`https://klayswap.com/exchange/pool/detail/0x50e746edaa283365136ed86a4e5dfddc6cd3cf9e`} title="get LP token">
+        klaySwap (get LP token)
       </StyledLink>
       {/* <StyledLink
         target="_blank"

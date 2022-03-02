@@ -23,7 +23,7 @@
     "web3": "^1.2.11"
   },
   "scripts": {
-    "start": "export PORT=3000 && react-scripts start",
+    "start": "export PORT=3001 && react-scripts start",
     "build": "CI= GENERATE_SOURCEMAP=false react-scripts build",
     "build:pro": "rm -rf build* && npm run build && tar -zcvf build.tar.gz  build",
     "test": "react-scripts test",

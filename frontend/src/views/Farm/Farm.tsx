@@ -98,7 +98,7 @@ const Farm: React.FC<FarmProps> = ({ farmId }) => {
                 text="Add Liquidity"
                 backgroundColor='#ed007a'
                 size="xs"
-                href='https://swap.c4ei.net/#/add/ETH/0x58A3F3237Ac6DD279702f2ec02C36ab536FF08e1'
+                href='https://klayswap.com/exchange/pool/detail/0x50e746edaa283365136ed86a4e5dfddc6cd3cf9e'
             />
         </div>
         <Spacer size="lg" />

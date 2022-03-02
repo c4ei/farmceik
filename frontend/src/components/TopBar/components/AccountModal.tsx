@@ -50,7 +50,7 @@ const AccountModal: React.FC<ModalProps> = ({ onDismiss }) => {
               <img src={imageDEOR} height="100" style={{ marginTop: -4 }} />
             </CardIcon>
             <StyledBalance>
-              <Value value={getBalanceNumber(erc20Balance, 18)} />
+              <Value value={getBalanceNumber(erc20Balance, 8)} />
               <Label text="BCK Balance" />
             </StyledBalance>
           </StyledBalanceWrapper>
@@ -59,7 +59,7 @@ const AccountModal: React.FC<ModalProps> = ({ onDismiss }) => {
         <Spacer />
         <Button
           // href={`https://${ethscanType}etherscan.io/address/${account}`}
-          href={`https://exp.c4ei.net/address/${account}`}
+          href={`https://scope.klaytn.com/address/${account}`}
           text="View on Etherscan"
           variant="secondary"
         />

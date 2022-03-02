@@ -27,8 +27,8 @@ import DepositModal from './DepositModal'
 import WithdrawModal from './WithdrawModal'
 
 // import imageUniswap from '../../../assets/img/logo-uniswap.svg'
-import imageBcw from '../../../assets/img/bcw_256.png'
-import imageC4ei from '../../../assets/img/logo.svg'
+import imageBcw from '../../../assets/img/ic-ceik.png'
+import imageC4ei from '../../../assets/img/ic-klay-v2.svg'
 
 interface StakeProps {
   lpContract: Contract

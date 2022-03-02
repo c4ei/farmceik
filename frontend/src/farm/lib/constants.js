@@ -1,15 +1,12 @@
 export const contractAddresses = {
   erc20: {
-    42: '0xAdA673d512415c98e04C068A3b50022B2696cCCE',
-    21004: '0x58A3F3237Ac6DD279702f2ec02C36ab536FF08e1',
+    8217: '0x18814b01b5cc76f7043e10fd268cc4364df47da0',
   },
   farm: {
-    42: '0x8389Fa19f7276B489ed0268bCeebfa24325EaD6D',
-    21004: '0x4ae440C162809aAB17227A3B79c569ae09F9b490',
+    8217: '0x2263B559B8207e4914fD8aF080FF93085c3a713C',
   },
   weth: {
-    42: '0xa050886815cfc52a24b9c4ad044ca199990b6690',
-    21004: '0x994Fd4195aF7eDC17437F5aD7Fb34ABBc0CBba89',
+    8217: '0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167',
   }
 }
 
@@ -17,16 +14,14 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      42: '0x2e4c125f3c2baefd71c9100601caa13a198cc008',
-      21004: '0xC14770E46e2C9B53304486F7a3a27e9522091Eff', //UNI-V2 0.31606 : Add 0.1 C4EI and 0.998 BCW --> 0xC14770E46e2C9B53304486F7a3a27e9522091Eff --> LP (C4EI_BCW)
+      8217: '0x50E746EdaA283365136ed86a4E5DfDdc6CD3cF9e', 
     },
     tokenAddresses: {
-      42: '0xAdA673d512415c98e04C068A3b50022B2696cCCE',
-      21004: '0x58A3F3237Ac6DD279702f2ec02C36ab536FF08e1',
+      8217: '0x18814b01b5cc76f7043e10fd268cc4364df47da0', 
     },
-    name: 'C4EI-BCW',
-    symbol: 'C4EI-BCW UNI-V2 LP',
-    tokenSymbol: 'BCW',
+    name: 'KLAY-CEIK',
+    symbol: 'KLAY-CEIK KSLP',
+    tokenSymbol: 'CEIK',
     icon: '',
     pool: '100%',
   }

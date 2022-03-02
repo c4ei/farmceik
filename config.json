@@ -1,47 +1,14 @@
 {
-  "default": {
-    "erc20": {
-      "name": "C4EI Mock Token",
-      "symbol": "C4EI",
-      "decimals": 18,
-      "supply": "10000000000000000000"
-    },
-    "rewardPerBlock": "1000000000000000",
-    "delay": 30,
-    "fund": "5000000000000000000",
-    "lp": [
-      {
-        "name": "C4EI LP Mock",
-        "symbol": "LP C4EI",
-        "decimals": 18,
-        "allocPoint": 120
-      }
-    ]
-  },
-  "kovan": {
-    "erc20": {
-      "address": "0xAdA673d512415c98e04C068A3b50022B2696cCCE"
-    },
-    "rewardPerBlock": "1000000000",
-    "delay": 30,
-    "fund": "100000000000000000",
-    "lp": [
-      {
-        "address": "0x2e4c125f3c2baefd71c9100601caa13a198cc008",
-        "allocPoint": 120
-      }
-    ]
-  },
   "mainnet": {
     "erc20": {
-      "address": "0x58A3F3237Ac6DD279702f2ec02C36ab536FF08e1"
+      "address": "0x18814b01b5cc76f7043e10fd268cc4364df47da0"
     },
-    "rewardPerBlock": "40000000000",
+    "rewardPerBlock": "400000000",
     "delay": 30,
-    "fund": "100000000000000000",
+    "fund": "3650000000000000000",
     "lp": [
       {
-        "address": "0xC14770E46e2C9B53304486F7a3a27e9522091Eff",
+        "address": "0x50E746EdaA283365136ed86a4E5DfDdc6CD3cF9e",
         "allocPoint": 120
       }
     ]

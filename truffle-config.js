@@ -3,7 +3,7 @@ require('dotenv').config();
 
 const provider = new HDWalletProvider({ 
   privateKeys:[process.env.PK]
-  ,providerOrUrl:'https://rpc.c4ei.net'}
+  ,providerOrUrl:'https://public-node-api.klaytnapi.com/v1/cypress'}
   )
 
 module.exports = {
@@ -19,10 +19,12 @@ module.exports = {
         //     network_id: "*"
         // },
         mainnet: {
-            url: "https://rpc.c4ei.net",
+            url: "https://public-node-api.klaytnapi.com/v1/cypress",
             provider: provider,
-            chainId: 21004,
-            network_id: 21004
+            network_id: '8217', //Klaytn baobab testnet's network id
+            gas: '8500000',
+            gasPrice:'25000000000'
+            // gasPrice:'725000000000'
         },
         // mainnet: {
         //     provider: function() {
