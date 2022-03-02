@@ -5,12 +5,12 @@ Compiler Version: v0.6.12+commit.27d51765
 Optimization Enabled: No with 200 runs
 Other Settings: default evmVersion
 ###############################
-0x2263B559B8207e4914fD8aF080FF93085c3a713C
+0xc40689375a5BD2F8E21B1c05A5EE1d343e5c746D
 ###############################
 -----Decoded View---------------
 Arg [0] : _erc20 (address): 0x3db6ba6ab6f95efed1a6e794cad492faaabf294d --> 0x18814b01b5cc76f7043e10fd268cc4364df47da0
 Arg [1] : _rewardPerBlock (uint256): 100000000
-Arg [2] : _startBlock (uint256): 84333333
+Arg [2] : _startBlock (uint256): 84340000
 
 {
   "remappings": [],
@@ -32,6 +32,40 @@ Arg [2] : _startBlock (uint256): 84333333
     }
   }
 }
+
+
+Farm.sol : ipfs://QmPmuBq8m7ND3ENSb1AqrvdHTTCttNByn836Kx2fxvxzdj
+metadata.json : ipfs://QmfTs2dmS4vZV7Dv2DgvmhwUjD5qKWvifw4fJWPfUSLfeL
+
+status	true Transaction mined and execution succeed
+transaction hash	0xabfd57508a0632c492f2b2eabfbb1e05590c76bd54b829d414f3075eb03b9005
+from	0x286A6CE75d9f623FfbA96fC2175FD5fbE2690746
+to	Farm.(constructor)
+gas	2548337 gas
+transaction cost	2548337 gas 
+hash	0xabfd57508a0632c492f2b2eabfbb1e05590c76bd54b829d414f3075eb03b9005
+input	0x608...6ed20
+decoded input	{
+	"address _erc20": "0x18814b01b5CC76F7043E10fd268cc4364dF47dA0",
+	"uint256 _rewardPerBlock": "100000000",
+	"uint256 _startBlock": "84340000"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xc40689375a5BD2F8E21B1c05A5EE1d343e5c746D",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x286A6CE75d9f623FfbA96fC2175FD5fbE2690746",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x286A6CE75d9f623FfbA96fC2175FD5fbE2690746"
+		}
+	}
+]
+val	0 peb
+
 */
 
 //File 2 of 8 : Context.sol
