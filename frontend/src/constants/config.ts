@@ -1,2 +1,2 @@
-export const BASIC_TOKEN = 'C4EI';
+export const BASIC_TOKEN = 'CEIK';
 export const GITHUB = 'https://github.com/c4ei/deor-lp-farming';
